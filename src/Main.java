@@ -6,15 +6,18 @@ public class Main {
         //Задача №1
         {
             for (int b = 10; b > 0; b--) {
-                System.out.println(b);
+                System.out.print(b + " ");
             }
+            System.out.println(" ");
             int i = 1;
             while (i <= 10) {
-                System.out.println(i++);
+                System.out.print(i++ + " ");
 
             }
         }
         //Задача №2
+
+        System.out.println(" ");
         {
             for (int fridayReport = 7; fridayReport < 31; fridayReport = fridayReport + 7) {
                 System.out.println("Сегодня пятница " + fridayReport + "-е число. Необходимо подготовить отчет.");
