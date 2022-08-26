@@ -22,12 +22,16 @@ public class Main {
             for (int fridayReport = 7; fridayReport < 31; fridayReport = fridayReport + 7) {
                 System.out.println("Сегодня пятница " + fridayReport + "-е число. Необходимо подготовить отчет.");
             }
-        //Задача №3
-            for (int trajectory = 0; trajectory <= 200; trajectory = trajectory + 79) {
-                System.out.println("Комета пролетала " + trajectory);
+            //Задача №3
+            for (int trajectory = 0; trajectory <= 2100; trajectory = trajectory + 79) {
+                if (trajectory >= 1822) {
+                    System.out.println("Комета пролетала " + trajectory);
 
+
+                }
             }
         }
     }
 }
+
 
